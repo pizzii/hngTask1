@@ -3,18 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Task 1</title>
   </head>
   <body>
-    <img
-      src="https://ca.slack-edge.com/T05FFAA91JP-U05R9DMDAAF-ec00473c04cf-512"
-      data-testid="slackDisplayImage"
-      alt="my-pic"
-    />
-    <h1 data-testid="slackUserName">Reginald Ejike</h1>
-    <div data-testid="currentUTCTime" id="time"></div>
-    <div data-testid="currentDayOfTheWeek" id="day"></div>
-    <h3>Track: <span data-testid="myTrack">Frontend</span></h3>
+    <div class="wrapper">
+      <div class="left">
+        <img
+          src="https://ca.slack-edge.com/T05FFAA91JP-U05R9DMDAAF-ec00473c04cf-512"
+          data-testid="slackDisplayImage"
+          alt="my-pic"
+        />
+      </div>
+      <div class="right">
+        <h1 data-testid="slackUserName" class="name">Reginald Ejike</h1>
+        <h3>
+          Track: <span data-testid="myTrack" class="track">Frontend</span>
+        </h3>
+        <div data-testid="currentUTCTime" id="time"></div>
+        <div data-testid="currentDayOfTheWeek" id="day"></div>
+
+        <a data-testid="githubURL" href="https://github.com/pizzii/hngTask1"
+          >Repo</a
+        >
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
