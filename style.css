@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lora', serif;
 }
 
 .wrapper {
@@ -26,6 +29,18 @@ img {
 
 .name {
   margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+#time,
+#day {
+  font-weight: 300;
+  font-size: 20px;
 }
 
 a {
